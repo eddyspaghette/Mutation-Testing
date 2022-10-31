@@ -1,5 +1,11 @@
 version: "3.9"
 services:
   nerdamer:
-    build: .
+    build:
+      context: .
+      dockerfile: ./nerdamer/Dockerfile
+  vectorz:
+    build:
+      context: .
+      dockerfile: ./vectorz/Dockerfile
 

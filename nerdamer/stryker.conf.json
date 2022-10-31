@@ -10,6 +10,9 @@
   "mutate": [ "spec/**/*.spec.js"],
   "tempDirName": "stryker-tmp",
   "testRunner": "jasmine",
+  "mutator": {
+    "excludedMutations": ["EqualityOperator"]
+  },
   "coverageAnalysis": "perTest",
   "jasmineConfigFile": "spec/support/jasmine.json"
 }
