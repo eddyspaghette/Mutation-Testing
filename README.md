@@ -1,25 +1,13 @@
 # How to run mutation tests:
 
-## Nerdamer
+## Nerdamer && Vectorz
 **prerequisites: docker & docker compose**
 
 
+command below will run both containers at the same time
 
 `docker compose up`
 
-
-
-**prerequisites: docker**
-
-
-eg) or you can build the image and run the container in interactive mode:
-
-
-`docker build . -t nerdamer`
-
-
-
-`docker run -it nerdamer`
 
 
 once done, you can find the container name and copy the results over to any directory 
